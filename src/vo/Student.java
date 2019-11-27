@@ -23,6 +23,14 @@ public class Student {
 	public String getStudentName() {
 		return studentName;
 	}
+	
+	public String getDOB() {
+		return DOB;
+	}
+	
+	public void setDOB(String DOB) {
+		this.DOB = DOB;
+	}
 
 	public void setStudentName(String studentName) {
 		this.studentName = studentName;
