@@ -8,6 +8,7 @@ public class Student {
 	private String qualification;
 	private String percentage;
 	private String yearPassed;
+	private String DOB;
 	
 	public Student(){}
 
