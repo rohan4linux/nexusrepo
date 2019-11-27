@@ -8,7 +8,7 @@ public class Student {
 	private String qualification;
 	private String percentage;
 	private String yearPassed;
-	private String DOB;
+	
 	
 	public Student(){}
 
@@ -24,13 +24,7 @@ public class Student {
 		return studentName;
 	}
 	
-	public String getDOB() {
-		return DOB;
-	}
-	
-	public void setDOB(String DOB) {
-		this.DOB = DOB;
-	}
+
 
 	public void setStudentName(String studentName) {
 		this.studentName = studentName;
