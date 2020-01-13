@@ -8,6 +8,8 @@ pipeline {
     branches: [[name: '*/master']],
     userRemoteConfigs: [[credentialsId: 'f1ac5d33-39cc-4531-b485-79bf53848d10', url: 'https://github.com/rohan4linux/nexusrepo-1.git']]
 ]) 
+           }
+                }
      stage (build){
            steps {
                sh 'mvn package'
